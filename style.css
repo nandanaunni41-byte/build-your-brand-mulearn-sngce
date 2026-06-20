@@ -110,7 +110,71 @@ a:hover{
     color:white;
 }
 
+.skills-container{
 
+display:flex;
+
+flex-wrap:wrap;
+
+justify-content:center;
+
+gap:30px;
+
+margin-top:30px;
+
+}
+
+
+.skill-card{
+
+width:220px;
+
+height:220px;
+
+background:#1e293b;
+
+border-radius:20px;
+
+display:flex;
+
+flex-direction:column;
+
+justify-content:center;
+
+align-items:center;
+
+transition:0.3s;
+
+border:1px solid #334155;
+
+}
+
+
+.skill-card:hover{
+
+transform:translateY(-8px);
+
+box-shadow:0 0 20px #38bdf8;
+
+}
+
+
+.skill-card i{
+
+font-size:90px;
+
+margin-bottom:20px;
+
+}
+
+
+.skill-card p{
+
+font-size:22px;
+
+color:white;
+
+}
 @media(max-width:768px){
 
 .hero{
