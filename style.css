@@ -137,3 +137,40 @@ section{
 }
 
 }
+.project{
+
+margin-top:30px;
+
+padding:20px;
+
+background:#0f172a;
+
+border-radius:15px;
+
+}
+
+
+.project img{
+
+width:100%;
+
+max-width:500px;
+
+height:250px;
+
+object-fit:cover;
+
+border-radius:12px;
+
+margin-bottom:15px;
+
+border:2px solid #38bdf8;
+
+}
+
+
+.project h3{
+
+margin-bottom:10px;
+
+}
